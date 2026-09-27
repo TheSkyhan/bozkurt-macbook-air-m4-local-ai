@@ -1,0 +1,13 @@
+name: Source checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  source:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check distribution
+        run: python3 tests/check_distribution.py
+      - name: Test tools
+        run: python3 -m unittest discover -s tests -v

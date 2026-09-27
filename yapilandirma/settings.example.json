@@ -1,0 +1,24 @@
+{
+  "theme": "dark",
+  "compaction": {
+    "enabled": true,
+    "reserveTokens": 4096,
+    "keepRecentTokens": 2048,
+    "modelOverrides": {
+      "yerel-bonsai/Ternary-Bonsai-2-27B-PQ2_0.gguf": {
+        "reserveTokens": 4096,
+        "keepRecentTokens": 4096
+      },
+      "yerel-qwen/Qwen3.8-9B-Distill-Heretic-Uncensored-Q8_0.gguf": {
+        "reserveTokens": 2304,
+        "keepRecentTokens": 1536
+      },
+      "yerel-lucifer/orcarouter_Qwen3.8-27B-Uncensored-IQ2_M.gguf": {
+        "reserveTokens": 2304,
+        "keepRecentTokens": 1024
+      }
+    }
+  },
+  "enableSkillCommands": true,
+  "quietStartup": true
+}

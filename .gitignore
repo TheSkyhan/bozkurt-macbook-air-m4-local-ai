@@ -1,0 +1,41 @@
+# Runtime and private data
+.runtime/
+.pi/
+.env
+.env.*
+!.env.example
+**/auth.json
+**/sessions/
+**/AJAN_HAFIZA.md
+yapilandirma/konum.conf
+yapilandirma/headless-gorev-*
+gunlukler/
+yedekler/
+*.log
+*.log.*
+*.backup*
+*.bak*
+.DS_Store
+__pycache__/
+*.pyc
+.venv*/
+node_modules/
+# Downloaded engines and weights
+motorlar/Bonsai-demo/
+motorlar/qwen-image-backend/
+modeller/
+*.gguf
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+# User-generated media/documents
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.heic
+*.mp4
+*.pdf
+*.zip

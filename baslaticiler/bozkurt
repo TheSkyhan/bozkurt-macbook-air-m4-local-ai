@@ -1,0 +1,4 @@
+#!/bin/zsh
+source "${0:A:h}/../motorlar/lib/ortam.zsh"
+# Terminal'de `bozkurt` komutunun hedefi. Terminal kapatılıp açıldıktan sonra da çalışır.
+exec "$BOZKURT_ROOT/baslaticiler/baslat-asistan.sh"
